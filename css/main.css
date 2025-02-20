@@ -1,5 +1,5 @@
 body {
-  font-family: vesper-libre;
+  font: "vesper libre";
   color: #1a1a1a;
   line-height: 1.5;
   margin: 0;
@@ -50,32 +50,118 @@ Add border bottom with values 2px solid #ff3530
 }
 
 .author, .date, .news, figcaption, h2, .subtitle {
-  font-family: open-sans;
+  font: "open sans";
+}
+
+.author,.date {
+  font-size: .85rem;
+  margin-bottom: 0rem;
+}
+
+figure {
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+figcaption {
+  font-size: .75rem;
+  text-align: center;
+  color: #757575;
+  font-style: italic;
+}
+
+/*
+Target the list of nominees
+Remove bullets with list-style property
+Remove padding on left with 0 */
+
+.one {
+  list-style: none;
+  padding-left: 0px;
 }
 
 
 
+.two {
+  list-style: none;
+  padding: 0px;
+}
 
+.three {
+  list-style: none;
+  padding: 0px;
+}
 
+.four {
+  list-style: none;
+  padding: 0px;
+}
 
-/*
-Select  , sub-title,   
-Change font family to Open Sans
-Select author and date
-Change font size to .85rem
-Remove margin bottom by setting it to 0
-Select figure
-Change margin top and bottom to 1.25em, and left and right to 0. For example margin: 1.25em 0;
-Select the caption under the image
-Set font size to .75rem
-Adjust to use center alignment
-Change text color to use #757575
-Adjust text style to be italicized
-Target the list of nominees
-Remove bullets with list-style property
-Remove padding on left with 0
-Style links to
-Use text color #1a1a1a
-Have an underline by default
-On hover, underline disappears
-On hover, color of link changes to #ff3530 */
+.five {
+  list-style: none;
+  padding: 0px;
+}
+
+.six {
+  list-style: none;
+  padding: 0px;
+}
+
+.seven {
+  list-style: none;
+  padding: 0px;
+}
+
+.eight {
+  list-style: none;
+  padding: 0px;
+}
+
+.nine {
+  list-style: none;
+  padding: 0px;
+}
+
+.ten {
+  list-style: none;
+  padding: 0px;
+}
+
+.eleven {
+  list-style: none;
+  padding: 0px;
+}
+
+.twelve {
+  list-style: none;
+  padding: 0px;
+}
+
+.thirteen {
+  list-style: none;
+  padding: 0px;
+}
+
+.fourteen {
+  list-style: none;
+  padding: 0px;
+}
+
+.fifteen {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: #1a1a1a;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ff3530;
+}
+

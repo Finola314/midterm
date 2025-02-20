@@ -1,5 +1,5 @@
 body {
-  font: "vesper libre";
+  font-family: "vesper libre";
   color: #1a1a1a;
   line-height: 1.5;
   margin: 0;
@@ -13,13 +13,13 @@ header, footer {
 
 img {
   width: 100%;
-  /*Select the appropriate tag for image
-  Set the width to be 100% */
 }
 
 header > img {
   width: 100px;
-  padding: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+
 }
 
 main {
@@ -37,25 +37,20 @@ h1 {
   display: inline-block;
   text-transform: uppercase;
   font-size: .85rem;
-  border-bottom: 2px #ff3530;
+}
 
-  /* Target the article category 'News' using a class 
-  Target the article category 'News' using a class
-Change display property to inline-block
-Change text to be displayed as uppercase
-Set font size to be .85rem
-Add border bottom with values 2px solid #ff3530
-*/
+.news {
+  border-bottom: solid 2px #ff3530;
 
 }
 
 .author, .date, .news, figcaption, h2, .subtitle {
-  font: "open sans";
+  font-family: "open sans";
 }
 
 .author,.date {
   font-size: .85rem;
-  margin-bottom: 0rem;
+  line-height: .85;
 }
 
 figure {
@@ -71,88 +66,11 @@ figcaption {
   color: #757575;
   font-style: italic;
 }
-
-/*
-Target the list of nominees
-Remove bullets with list-style property
-Remove padding on left with 0 */
-
-.one {
+ 
+ul {
   list-style: none;
-  padding-left: 0px;
-}
-
-
-
-.two {
-  list-style: none;
-  padding: 0px;
-}
-
-.three {
-  list-style: none;
-  padding: 0px;
-}
-
-.four {
-  list-style: none;
-  padding: 0px;
-}
-
-.five {
-  list-style: none;
-  padding: 0px;
-}
-
-.six {
-  list-style: none;
-  padding: 0px;
-}
-
-.seven {
-  list-style: none;
-  padding: 0px;
-}
-
-.eight {
-  list-style: none;
-  padding: 0px;
-}
-
-.nine {
-  list-style: none;
-  padding: 0px;
-}
-
-.ten {
-  list-style: none;
-  padding: 0px;
-}
-
-.eleven {
-  list-style: none;
-  padding: 0px;
-}
-
-.twelve {
-  list-style: none;
-  padding: 0px;
-}
-
-.thirteen {
-  list-style: none;
-  padding: 0px;
-}
-
-.fourteen {
-  list-style: none;
-  padding: 0px;
-}
-
-.fifteen {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+  list-style-position: inside;
+  padding-left: 0;
 }
 
 a {
@@ -164,4 +82,3 @@ a:hover {
   text-decoration: none;
   color: #ff3530;
 }
-
